@@ -71,7 +71,6 @@
 		42F46A042125726E000C168A /* ClimaNow */ = {
 			isa = PBXGroup;
 			children = (
-				42F46A052125726E000C168A /* AppDelegate.swift */,
 				42F46A1B212579DF000C168A /* Model */,
 				42F46A18212579A3000C168A /* View */,
 				42F46A1721257991000C168A /* Controller */,
@@ -85,6 +84,7 @@
 		42F46A1721257991000C168A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				42F46A052125726E000C168A /* AppDelegate.swift */,
 				42F46A072125726E000C168A /* ViewController.swift */,
 			);
 			path = Controller;
@@ -398,7 +398,10 @@
 				DEVELOPMENT_TEAM = T9EWCF83UK;
 				INFOPLIST_FILE = ClimaNow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisyoung.ClimaNow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -415,7 +418,10 @@
 				DEVELOPMENT_TEAM = T9EWCF83UK;
 				INFOPLIST_FILE = ClimaNow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisyoung.ClimaNow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
